@@ -9,6 +9,5 @@ Script for controlling TV from Linux using autoRemote and an IR-compatible cellp
 <ul>AutoRemote</ul>
 <ul>and SmartRemote.</ul>
 
-
-=== Help ==================================================================r><b
-Setting up autoremote in bash: http://joaoapps.com/autoremote/linux/
+<h2>Help</h2>
+<p>Setting up autoremote in bash: http://joaoapps.com/autoremote/linux/
