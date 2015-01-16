@@ -1,4 +1,7 @@
 #!/bin/bash
+# --- HOW ---------------------
+# ./tv.sh DeskLamp On
+# Currently only working for barlamp on/off...
 
 function startlog()
 {
@@ -17,9 +20,11 @@ function getKey()
 }
 	
 function getMsg()
-{
-	MSG=$1
-	log "Message: $1"
+{	
+	# only possible to send message as one long string. no spaces allowed. thus using , to separate
+	# and then using tasker to split to array. 
+	MSG="Lights,"$2","$1
+	log "Message: $MSG"
 }
 
 function sendMsg()
@@ -35,6 +40,6 @@ function printlog()
 #--- Script execuition -------------------------------------------------------------
 startlog
 getKey
-getMsg $1
+getMsg $@
 sendMsg
 #printlog

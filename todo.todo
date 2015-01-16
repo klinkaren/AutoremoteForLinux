@@ -1,8 +1,13 @@
 ToDo:
   ✔ Chng to var for autoremote KEY @done (15-01-14 17:27)
-  ☐ Create plugin for tasker?
+  ✔ Create profile for tasker? @done (15-01-16 17:27)
+  ☐ Fix full task for tasker (all lights)
   ☐ Add function for setting variables like KEY (at first run, saving for later)
   ☐ Function for setting up autoremote in bash (should be enough to give goo.gl-address)
+  ☐ case insensitive
+  ☐ Use flags (lights -f BarLamp for turning bar lamp off, light -d 80 barlamp for dimming bar lamp 80%)
+Bettter for Lights:
+ ☐ Use API to control lights directly from bash
 
 Branch out to change TVchannel:
   Branch out to controlling TV from Linux using autoRemote and an IR-compatible cellphone
